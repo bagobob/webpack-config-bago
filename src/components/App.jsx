@@ -1,5 +1,6 @@
 import "../styles/index.scss";
 import Recipes from "./Recipes";
+import sword from "../images/swc-sword.png";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
                 <section>
                     <h1>Oh hai, React</h1>
                 </section>
+                <img src={sword} alt="sword" width="250"/>
             </main>
 
             <Recipes />
